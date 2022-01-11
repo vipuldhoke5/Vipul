@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="source/styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+  <title>Vipul dhoke | Portfolio</title>
+</head>
+
+<body>
+  <nav>
+    <h1>Vipul Dhoke</h1>
+    <ul class="navigation">
+      <li><a href="#about" class="nav-link">About</a></li>
+      <li><a href="#skills" class="nav-link">Skills</a></li>
+      <li><a href="#Certificates" class="nav-link">Certificates</a></li>
+      <li><a href="#contact" class="nav-link">Contact</a></li>
+    </ul>
+    <button class="burger-menu" id="burger-menu">
+      <ion-icon class="bars" name="menu-outline"></ion-icon>
+      <!-- <ion-icon class="times" name="close-outline"></ion-icon> -->
+    </button>
+  </nav>
+  <section class="hero" id="about">
+    <img src="source/Screenshot (49).png" alt="vipul img" loading="lazy" class="hero-img" width="150px" />
+    <br /><br /><br />
+    <div class="bio animate__animated animate__shakeX">
+      <h2 class="bio-title">Personal Details :</h2>
+      <p class="bio-text">
+        Vipul Ramesh Dhoke <br />
+        At: Bhilewada Ramtek <br />
+        Nagpur-441106. <br />
+        vipul123@gmail.com <br />
+        7020054785
+      </p>
+    </div>
+  </section>
+  <br><br><br /><br />
+  <hr>
+  <hr>
+  <br><br>
+  <section class="more-about">
+    <h2>More About Me</h2>
+    <p>
+      My name is vipul ramesh dhoke. i am student of BCA 3rd year in
+      kavikulguru kalidas sanskrit university Ramtek.
+    </p>
+    <p>
+      I am pursuing BCA. I chose this field of study because I will always
+      been interested in computers, and a couple of family members told me it
+      leads to great career options. One of my key accomplishments during my
+      academic career was speaking at a conference on the topic of
+      energy-efficient window design, based on research I had done for one of
+      my senior-level classes. This led to an internship that I just wrapped
+      up, so I am actively looking for a full-time position now.
+    </p>
+    <p>I use a creative approach to problem solve</p>
+  </section>
+  <section class="skills" id="skills">
+    <h2 class="skill-header">My Top Skills</h2>
+    <div class="skills-wrapper">
+      <div class="first-set animate__animated animate__pulse">
+        <img src="source/icons8-html-5.svg" alt="" id="vip" loading="lazy" class="icon icon-card" />
+        <img src="source/icons8-css3.svg" alt="" id="vipu" loading="lazy" class="icon icon-card" />
+        <img src="source/icons8-javascript.svg" alt="" id="vi" loading="lazy" class="icon icon-card" />
+      </div>
+      <div class="second-set animate__animated animate__pulse">
+        <img src="source/icons8-bootstrap.svg" alt="" id="vipul" loading="lazy" class="icon icon-card" />
+        <img src="source/icons8-react-native.svg" alt="" id="vvi" loading="lazy" class="icon icon-card" />
+        <img src="source/icons8-git.svg" alt="" id="vvvi" loading="lazy" class="icon icon-card" />
+      </div>
+    </div>
+  </section>
+  <section class="projects" id="Certificates">
+    <h2 class="projects-title">Some of my Recent certificates</h2>
+    <div class="projects-container">
+      <div class="project-container project-card">
+        <img src="source/download1.jpeg" alt="expense-tracker" loading="lazy" class="project-pic" />
+        <h3 class="project-title">Certificate for C</h3>
+        <p class="project-details">
+          I have recently completed the basic of C programming.
+        </p>
+      </div>
+      <div class="project-container project-card">
+        <img src="source/download2.jpeg" alt="netflic-clone" loading="lazy" class="project-pic" />
+        <h3 class="project-title">Cloud computing</h3>
+        <p class="project-details">
+          I have recently get the cloud computing certificate.
+        </p>
+      </div>
+      <div class="project-container project-card">
+        <img src="source/download4.jpeg" alt="greeny-earth" loading="lazy" class="project-pic" />
+        <h3 class="project-title">Guinness World Record</h3>
+        <p class="project-details">
+          i am successfully completed the guinness world record event.
+        </p>
+      </div>
+    </div>
+  </section>
+  <section class="contact" id="contact">
+
+    <h2>Get In Touch With Me</h2>
+    <div class="contact-form-container">
+      <div class="contact-form">
+        <form action="" method="post">
+          <div class="form-control">
+            <label for="name">First Name</label>
+            <input type="text" id="firstname" name="firstName" placeholder="Enter Your First Name" class="input-field"
+              required />
+          </div>
+
+          <div class="form-control">
+            <label for="name">Last Name</label>
+            <input type="text" id="name" name="lastName" placeholder="Enter Your last Name" class="input-field"
+              required />
+          </div>
+          <div class="form-control">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="Enter Your Email" class="input-field" required />
+          </div>
+          <div class="form-control">
+            <label for="message">Message</label>
+            <textarea id="message" cols="60" rows="10" placeholder="Enter Your Message" name="message"
+              class="input-field" required></textarea>
+          </div>
+          <input type="submit" value="Submit" id="submit-btn" class="submit-btn" />
+        </form>
+      </div>
+    </div>
+  </section>
+  <hr />
+  <div class="socials">
+    <a href="https://twitter.com/" target="https://twitter.com/"><img src="source/icons8-twitter-circled.gif" alt="Twitter"
+        loading="lazy" class="socicon" /></a>
+    <a href="https://www.instagram.com/" target="https://www.instagram.com/ "><img src="source/icons8-instagram.gif"
+        alt="Instagram" loading="lazy" class="socicon" /></a>
+    <a href="https://www.linkedin.com/signup " target=" https://www.linkedin.com/signup"><img
+        src="source/icons8-linkedin-circled.gif" alt="Linkedin" loading="lazy" class="socicon" /></a>
+    <a href=" https://github.com/" target="https://github.com/"><img src="source/icons8-github.gif" alt="Github"
+        class="socicon" /></a>
+  </div>
+  <i class="scroll-up" id="scroll-up"><img src="source/icons8-upward-arrow.gif" class="socicon up-arrow" alt="" /></i>
+  <script src="source/app.js"></script>
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+  <footer>
+    <b>Thanks for Wisiting </b>
+  </footer>
+</body>
+
+</html>
